@@ -15,5 +15,6 @@ def main_screen():
     screen.title("Login System")
     
     lblTitle=Label(text = "Login System",font = ("Arial",50,'bold'),fg="black", bg="#d7dae2")
+    lblTitle.pack(pady=50)
     
 main_screen()
