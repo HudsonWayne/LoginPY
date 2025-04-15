@@ -16,5 +16,6 @@ def main_screen():
     
     lblTitle=Label(text = "Login System",font = ("Arial",50,'bold'),fg="black", bg="#d7dae2")
     lblTitle.pack(pady=50)
+    bordercolor = Frame(screen,bg="black",width=800, height=400)
     
 main_screen()
